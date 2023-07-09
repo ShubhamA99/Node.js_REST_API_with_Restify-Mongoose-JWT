@@ -1,0 +1,25 @@
+{
+  "name": "restifyjwtcrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^11.1.0",
+    "restify-errors": "^8.0.2",
+    "restify-jwt-community": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
